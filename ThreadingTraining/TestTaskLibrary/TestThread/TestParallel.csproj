@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5ED9F75A-A322-4D23-B36E-7CEDF9EEB55F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestThread</RootNamespace>
+    <AssemblyName>TestThread</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="APM\TestAPM3.cs" />
+    <Compile Include="APM\TestAPM2.cs" />
+    <Compile Include="APM\TestAPM1.cs" />
+    <Compile Include="Custom\Program72b.cs" />
+    <Compile Include="Custom\Program72a.cs" />
+    <Compile Include="Custom\Program104a.cs" />
+    <Compile Include="MyTestSamples\Program1001.cs" />
+    <Compile Include="ParallelFor\Program76a.cs" />
+    <Compile Include="Sync - Hybrid Signaling\Program74.cs" />
+    <Compile Include="Sync - Hybrid Signaling\Program73.cs" />
+    <Compile Include="temp\Program72b.cs" />
+    <Compile Include="Custom\Program71.cs" />
+    <Compile Include="Sync - Hybrid Signaling\Program70.cs" />
+    <Compile Include="Sync - Hybrid Signaling\Program69.cs" />
+    <Compile Include="Sync - Hybrid Signaling\Program68.cs" />
+    <Compile Include="Sync - Hybrid Signaling\Program67.cs" />
+    <Compile Include="Sync - Hybrid Signaling\Program66.cs" />
+    <Compile Include="Sync - Hybrid Signaling\Program65.cs" />
+    <Compile Include="Sync - Hybrid Signaling\Program64.cs" />
+    <Compile Include="Coordinating Tasks\Program63.cs" />
+    <Compile Include="Coordinating Tasks\Program62.cs" />
+    <Compile Include="Coordinating Tasks\Program61.cs" />
+    <Compile Include="Coordinating Tasks\Program60.cs" />
+    <Compile Include="Coordinating Tasks\Program59.cs" />
+    <Compile Include="Coordinating Tasks\Program58.cs" />
+    <Compile Include="Coordinating Tasks\Program57.cs" />
+    <Compile Include="Coordinating Tasks\Program56.cs" />
+    <Compile Include="Coordinating Tasks\Program55.cs" />
+    <Compile Include="Coordinating Tasks\Program54.cs" />
+    <Compile Include="Coordinating Tasks\Program53.cs" />
+    <Compile Include="Coordinating Tasks\Program52.cs" />
+    <Compile Include="Coordinating Tasks\Program51.cs" />
+    <Compile Include="Basic\Program25.cs" />
+    <Compile Include="Basic\Program24.cs" />
+    <Compile Include="Basic\Program23.cs" />
+    <Compile Include="Basic\Program22.cs" />
+    <Compile Include="Basic\Program21.cs" />
+    <Compile Include="Basic\Program20.cs" />
+    <Compile Include="Basic\Program19.cs" />
+    <Compile Include="Basic\Program18.cs" />
+    <Compile Include="Basic\Program17.cs" />
+    <Compile Include="Basic\Program16.cs" />
+    <Compile Include="Basic\Program15.cs" />
+    <Compile Include="Basic\Program14.cs" />
+    <Compile Include="Basic\Program13.cs" />
+    <Compile Include="Basic\Program12.cs" />
+    <Compile Include="Basic\Program11.cs" />
+    <Compile Include="Basic\Program10.cs" />
+    <Compile Include="Basic\Program09.cs" />
+    <Compile Include="Basic\Program08.cs" />
+    <Compile Include="Basic\Program07.cs" />
+    <Compile Include="Basic\Program06.cs" />
+    <Compile Include="Basic\Program05.cs" />
+    <Compile Include="Basic\Program04.cs" />
+    <Compile Include="Basic\Program03.cs" />
+    <Compile Include="Basic\Program02.cs" />
+    <Compile Include="Basic\Program01.cs" />
+    <Compile Include="ParallelFor\Program92.cs" />
+    <Compile Include="temp\Program91-ex.cs" />
+    <Compile Include="temp\Program90-ex.cs" />
+    <Compile Include="temp\Program89-ex.cs" />
+    <Compile Include="ParallelFor\Program87.cs" />
+    <Compile Include="Custom\Program88.cs" />
+    <Compile Include="ParallelFor\Program85.cs" />
+    <Compile Include="ParallelFor\Program86.cs" />
+    <Compile Include="ParallelFor\Program84.cs" />
+    <Compile Include="ParallelFor\Program83.cs" />
+    <Compile Include="ParallelFor\Program82.cs" />
+    <Compile Include="ParallelFor\Program81.cs" />
+    <Compile Include="ParallelFor\Program80.cs" />
+    <Compile Include="ParallelFor\Program79.cs" />
+    <Compile Include="ParallelFor\Program78.cs" />
+    <Compile Include="ParallelFor\Program77.cs" />
+    <Compile Include="ParallelFor\Program76.cs" />
+    <Compile Include="PLinq\Program93a.cs" />
+    <Compile Include="Custom\Program103a.cs" />
+    <Compile Include="PLinq\Program108.cs" />
+    <Compile Include="PLinq\Program107.cs" />
+    <Compile Include="PLinq\Program106.cs" />
+    <Compile Include="PLinq\Program109.cs" />
+    <Compile Include="Custom\Program104.cs" />
+    <Compile Include="PLinq\Program103.cs" />
+    <Compile Include="PLinq\Program102.cs" />
+    <Compile Include="PLinq\Program101.cs" />
+    <Compile Include="PLinq\Program100.cs" />
+    <Compile Include="PLinq\Program99.cs" />
+    <Compile Include="SharingData\Program98.cs" />
+    <Compile Include="PLinq\Program97.cs" />
+    <Compile Include="PLinq\Program96.cs" />
+    <Compile Include="PLinq\Program95.cs" />
+    <Compile Include="PLinq\Program93.cs" />
+    <Compile Include="PLinq\Program94.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SharingData\Program33b.cs" />
+    <Compile Include="SharingData\Program33a.cs" />
+    <Compile Include="SharingData\Program31a.cs" />
+    <Compile Include="SharingData\Program32b.cs" />
+    <Compile Include="SharingData\Program32a.cs" />
+    <Compile Include="SharingData\Program50.cs" />
+    <Compile Include="SharingData\Program49.cs" />
+    <Compile Include="SharingData\Program48.cs" />
+    <Compile Include="SharingData\Program47.cs" />
+    <Compile Include="SharingData\Program46.cs" />
+    <Compile Include="SharingData\Program45.cs" />
+    <Compile Include="SharingData\Program44.cs" />
+    <Compile Include="SharingData\Program43.cs" />
+    <Compile Include="SharingData\Program42.cs" />
+    <Compile Include="SharingData\Program41.cs" />
+    <Compile Include="SharingData\Program40.cs" />
+    <Compile Include="SharingData\Program39.cs" />
+    <Compile Include="SharingData\Program38.cs" />
+    <Compile Include="SharingData\Program37.cs" />
+    <Compile Include="SharingData\Program36.cs" />
+    <Compile Include="SharingData\Program35.cs" />
+    <Compile Include="SharingData\Program34.cs" />
+    <Compile Include="SharingData\Program33.cs" />
+    <Compile Include="SharingData\Program32.cs" />
+    <Compile Include="SharingData\Program31.cs" />
+    <Compile Include="SharingData\Program30.cs" />
+    <Compile Include="SharingData\Program29.cs" />
+    <Compile Include="SharingData\Program28.cs" />
+    <Compile Include="SharingData\Program27.cs" />
+    <Compile Include="SharingData\Program26.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
